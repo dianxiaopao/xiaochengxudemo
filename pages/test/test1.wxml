@@ -1,0 +1,22 @@
+<!--pages/test/test1.wxml-->
+<!-- <view wx:for="{{array}}">
+  {{index}}: {{item.content}}
+</view> -->
+
+<view class="page">
+        <view wx:for="{{array}}" class="weui-cells weui-cells_after-title">
+  <view class="weui-cell">
+                <view class="weui-cell__hd" style="position: relative;margin-right: 10px;">
+                    <image src="{{item.author.avatar_url}}" style="width: 50px; height: 50px; display: block"/>
+       
+                </view>
+                <view class="weui-cell__bd">
+                    <view>{{item.title}}</view>
+                    <view style="font-size: 13px;color: #888888;">{{item.author.loginname}} {{item.author.create_at}}</view>
+                </view>
+            </view>
+
+        
+        </view>
+
+</view>

@@ -1,0 +1,15 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/test/test1"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#FF7F24",
+    "navigationBarTitleText": "华邦云云",
+    "navigationBarTextStyle": "black",
+    "backgroundColor": "#FF7F24",
+    "enablePullDownRefresh": "true"
+  }
+}
