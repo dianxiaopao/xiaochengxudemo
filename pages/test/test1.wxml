@@ -5,7 +5,8 @@
 
 <view class="page">
         <view wx:for="{{array}}" class="weui-cells weui-cells_after-title">
-  <view class="weui-cell">
+            <view class="weui-cell">
+             <!-- <navigator url="pages/camera/camera?title=navigate" hover-class="navigator-hover"> -->
                 <view class="weui-cell__hd" style="position: relative;margin-right: 10px;">
                     <image src="{{item.author.avatar_url}}" style="width: 50px; height: 50px; display: block"/>
        
@@ -14,6 +15,7 @@
                     <view>{{item.title}}</view>
                     <view style="font-size: 13px;color: #888888;">{{item.author.loginname}} {{item.author.create_at}}</view>
                 </view>
+                <!-- </navigator> -->
             </view>
 
         

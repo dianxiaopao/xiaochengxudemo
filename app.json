@@ -2,10 +2,11 @@
   "pages": [
     "pages/index/index",
     "pages/logs/logs",
-    "pages/test/test1"
+    "pages/test/test1",
+    "pages/camera/camera"
   ],
   "window": {
-    "backgroundTextStyle": "light",
+    "backgroundTextStyle": "dark",
     "navigationBarBackgroundColor": "#FF7F24",
     "navigationBarTitleText": "华邦云云",
     "navigationBarTextStyle": "black",
